@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         assert.ok(ok, 'uuid vrai');
     });
 
-    QUnit.module('task list');
+    QUnit.module('taskList');
 
     QUnit.test("création liste", function(assert) {
         let tl = new TaskList();
